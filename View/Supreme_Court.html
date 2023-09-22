@@ -50,7 +50,7 @@
           >
           <span>
             <button>
-              <a class="flex" href="/View/Supreme_Court.html">
+              <a class="flex bg-white focus:bg-none w-[16rem] h-[4rem] pl-3 pt-4 rounded-l-2xl rounder-reve  focus:hidden text-[#825602]" href="/View/Supreme_Court.html">
                 <svg
                   class="mr-[1rem]"
                   xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
                 >
                   <path
                     d="M29.8667 8.07144H29.3667V8.57144V9.42859C29.3667 9.65885 29.2004 9.78573 29.0667 9.78573H2.93333C2.79961 9.78573 2.63333 9.65885 2.63333 9.42859V8.57144V8.07144H2.13333H0.533481C0.533271 8.0714 0.53281 8.07126 0.532058 8.07093C0.530414 8.0702 0.526592 8.06812 0.521737 8.06292C0.511314 8.05175 0.5 8.02966 0.5 8.00001V6.85716C0.5 6.83565 0.506103 6.81716 0.514149 6.80427C0.520387 6.79427 0.526502 6.78946 0.529952 6.78737L15.9843 0.506656L15.9916 0.503688L15.9988 0.50049C16.0004 0.499812 16.0006 0.5 16 0.5C15.9994 0.5 15.9996 0.499812 16.0012 0.50049L16.0084 0.503688L16.0157 0.506656L31.47 6.78737C31.4735 6.78946 31.4796 6.79427 31.4859 6.80427C31.4939 6.81716 31.5 6.83565 31.5 6.85716V8.00001C31.5 8.02966 31.4887 8.05175 31.4783 8.06292C31.4734 8.06812 31.4696 8.0702 31.4679 8.07093C31.4672 8.07126 31.4667 8.0714 31.4665 8.07144H29.8667ZM5.33333 25.6429H5.83333V25.1429V11.9286H9.1V25.1429V25.6429H9.6H13.8667H14.3667V25.1429V11.9286H17.6333V25.1429V25.6429H18.1333H22.4H22.9V25.1429V11.9286H26.1667V25.1429V25.6429H26.6667H29.0667C29.2004 25.6429 29.3667 25.7697 29.3667 26V26.9286H2.63333V26C2.63333 25.7697 2.79961 25.6429 2.93333 25.6429H5.33333ZM0.5 30.2857C0.5 29.582 1.02441 29.0714 1.6 29.0714H30.4C30.9756 29.0714 31.5 29.582 31.5 30.2857V31.4286C31.5 31.4582 31.4887 31.4803 31.4783 31.4915C31.4734 31.4967 31.4696 31.4988 31.4679 31.4995C31.4672 31.4998 31.4667 31.5 31.4665 31.5H0.533485C0.533276 31.5 0.532815 31.4998 0.532058 31.4995C0.530414 31.4988 0.526592 31.4967 0.521737 31.4915C0.511314 31.4803 0.5 31.4582 0.5 31.4286V30.2857Z"
-                    stroke="white"
+                    stroke="#825602"
                   />
                 </svg>
                 Supreme Court</a
@@ -211,24 +211,16 @@
               </svg>
             </div>
 
-            <div
-              class="lang flex text-[#825602] text-2xl font-bold ml-96 mt-[4.1rem]"
-            >
-              EN
-              <svg
-                class="flex w-5 h-5 mt-1.5 ml-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M21.365 0.7742H11.4449H2.51194C0.983312 0.7742 0.219 4.21624 1.30178 6.23401L9.55002 21.6045C10.8716 24.0673 13.0213 24.0673 14.3429 21.6045L17.4798 15.759L22.5911 6.23401C23.6579 4.21624 22.8936 0.7742 21.365 0.7742Z"
-                  fill="#825602"
-                />
-              </svg>
+            <button class="languagebar">
+              <div class="lang flex text-[#825602] text-2xl font-bold ml-96 mt-[4.1rem]">EN
+                <svg class="flex w-5 h-5 mt-1.5 ml-2  " xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M21.365 0.7742H11.4449H2.51194C0.983312 0.7742 0.219 4.21624 1.30178 6.23401L9.55002 21.6045C10.8716 24.0673 13.0213 24.0673 14.3429 21.6045L17.4798 15.759L22.5911 6.23401C23.6579 4.21624 22.8936 0.7742 21.365 0.7742Z"
+                        fill="#825602" />
+                </svg>
             </div>
+            </button>
           </div>
 
           <div class="flex-col">
@@ -241,26 +233,56 @@
             >
               <div></div>
               <div
-                class="1 border-2 border-[#825602] h-[16rem] w-96 lex text-[#825602] text-4xl p-4 rounded-lg"
+                class="drop-shadow-2xl shadow-xl shadow-gray-500 h-[16rem] w-96 font-semibold text-[#825602] text-4xl p-4 rounded-lg"
               >
-                Total solved cases :-
-                <span class="flex mt-12 text-black justify-center items-center"
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+                <g filter="url(#filter0_d_114_89)">
+                  <g filter="url(#filter1_i_114_89)">
+                    <path d="M18 34C26.8365 34 34 26.8365 34 18C34 9.16344 26.8365 2 18 2C9.16344 2 2 9.16344 2 18C2 26.8365 9.16344 34 18 34Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                </g>
+                <defs>
+                  <filter id="filter0_d_114_89" x="0.5" y="0.5" width="37" height="37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dx="1" dy="1"/>
+                    <feGaussianBlur stdDeviation="1"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_114_89"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_114_89" result="shape"/>
+                  </filter>
+                  <filter id="filter1_i_114_89" x="1.5" y="1.5" width="37" height="37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dx="23" dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_114_89"/>
+                  </filter>
+                </defs>
+              </svg>
+                <div class="mt-8 ">Total solved cases </div>
+                <span class="flex mt-12 text-[#825602] font-normal justify-center items-center"
                   >5486759</span
                 >
               </div>
               <div
-                class="2 border-2 border-[#825602] h-[16rem] w-96 lex text-[#825602] text-4xl p-4 rounded-lg"
+                class="drop-shadow-2xl shadow-xl shadow-gray-500 h-[16rem] w-96 font-semibold text-[#825602] text-4xl p-4 rounded-lg"
               >
-                Pending cases :-
-                <span class="flex mt-12 text-black justify-center items-center"
+            
+              <div class="">Pending Cases </div> 
+                <span class="flex mt-12 text-[#825602] font-normal justify-center items-center"
                   >3568752</span
                 >
               </div>
               <div
-                class="3 border-2 border-[#825602] h-[16rem] w-96 lex text-[#825602] text-4xl p-4 rounded-lg"
+                class="drop-shadow-2xl shadow-xl shadow-gray-500 h-[16rem] w-96 font-semibold text-[#825602] text-4xl p-4 rounded-lg"
               >
-                Total cases :-
-                <span class="flex mt-12 text-black justify-center items-center"
+                Total cases 
+                <span class="flex mt-12 text-[#825602] font-normal justify-center items-center"
                   >82554631</span
                 >
               </div>
@@ -276,30 +298,32 @@
           >
             <div></div>
             <div
-              class="1 border-2 border-[#825602] h-[16rem] w-96 lex text-[#825602] text-4xl p-4 rounded-lg"
+              class="drop-shadow-2xl shadow-xl shadow-gray-500 h-[16rem] w-96 font-semibold text-[#825602] text-4xl p-4 rounded-lg"
             >
-              Civil :-
-              <span class="flex mt-12 text-black justify-center items-center"
+              Civil 
+              <span class="flex mt-12 text-[#825602] font-normal justify-center items-center"
                 >325645</span
               >
             </div>
             <div
-              class="2 border-2 border-[#825602] h-[16rem] w-96 lex text-[#825602] text-4xl p-4 rounded-lg"
+              class="drop-shadow-2xl shadow-xl shadow-gray-500 h-[16rem] w-96 font-semibold text-[#825602] text-4xl p-4 rounded-lg"
             >
-              Criminal :-
-              <span class="flex mt-12 text-black justify-center items-center"
+              Criminal 
+              <span class="flex mt-12 text-[#825602] font-normal justify-center items-center"
                 >454656</span
               >
             </div>
             <div
-              class="3 border-2 border-[#825602] h-[16rem] w-96 lex text-[#825602] text-4xl p-4 rounded-lg"
+              class="drop-shadow-2xl shadow-xl shadow-gray-500 h-[16rem] w-96 font-semibold text-[#825602] text-4xl p-4 rounded-lg"
             >
-              Family :-
-              <span class="flex mt-12 text-black justify-center items-center"
+              Family 
+              <span class="flex mt-12 text-[#825602] font-normal justify-center items-center"
                 >568432</span
               >
             </div>
           </div>
+          <div class="my-16"></div>
+
         </div>
       </div>
     </section>
