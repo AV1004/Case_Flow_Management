@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CaseList</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="mx-auto  h-[57rem] w-[60rem] ">
+      <div class="flex items-center relative mx-auto  justify-center">
+        <button
+          class="bg-[#825602] px-8 py-6 m-6 relative rounded-2xl text-white text-2xl"
+        >
+          <a href="#">Case Number</a>
+        </button>
+        <button
+          class="bg-[#825602] px-8 py-6 m-6 relative rounded-2xl text-white text-2xl"
+        >
+          <a href="#">FIR Number</a>
+        </button>
+      </div>
+      <div class="container ">
+        <form action="" class="relative justify-center flex border-3 border-sky-500 flex-col items-center">
+          <div class="flex">
+            <input type="radio" name="fav_language" value="Court Complex" />
+            <label for="html">Court Complex</label><br />
+
+            <input
+              type="radio"
+              id="css"
+              name="fav_language"
+              value="Court Establishemnt"
+            />
+            <label for="css">Court Establishemnt</label><br />
+          </div>
+          <div>
+            Court Complex
+            <select id="" required>
+              <option value="">Manali</option>
+              <option value="">Kullu</option>
+              <option value="">Bunjar</option>
+            </select>
+            <div>
+              Case Type
+              <select id="">
+                <option value="">Civil</option>
+                <option value="">Family</option>
+                <option value="">Criminal</option>
+              </select>
+            </div>
+            <div>
+              Case Number
+              <input type="text" required />
+            </div>
+            <div>
+              Year
+              <input type="text" required />
+            </div>
+          </div>
+
+          <button
+            type="reset"
+            class="bg-[#825602] px-8 py-6 m-6 relative rounded-2xl text-white text-2xl"
+          >
+            <a href="#">Reset</a>
+          </button>
+          <button
+            type="submit"
+            class="bg-[#825602] px-8 py-6 m-6 relative rounded-2xl text-white text-2xl"
+          >
+            <a href="#">Search</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
