@@ -13,7 +13,7 @@
         <div class="bg-[#FFF5E9]">
             <div
                 class="toggle fixed flex flex-col text-white rounded-r-xl h-full space-y-16 w-[18rem] text-2xl pl-8 bg-[#825602] font-semibold">
-                <img class="h-20 w-[13rem] bg-white m-3 mt-14" src="/Assets/CFLM Logo.png" alt="" />
+                <img class="h-20 w-20 mt-14" src="" alt="" />
                 <span class="">
                     <button class="">
                         <a class="bg-white focus:bg-none w-[16rem] h-[4rem] pl-3 pt-4 rounded-l-2xl rounder-reve flex focus:hidden text-[#825602] "
@@ -63,15 +63,18 @@
                             </svg>
                             District Court</a>
                     </button></span>
-                    <button>
-                        <a class="   focus:bg-none w-[16rem] h-[4rem] pl-3 pt-4 rounded-l-2xl rounder-reve flex focus:hidden text-white" href="./CaseStatus.html">
+                
+                    <button class="flex flex-row m-0 p-0 space-x-5">
+                        <span> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-clipboard-minus " viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M5.5 9.5A.5.5 0 0 1 6 9h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/> <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/> </svg></span>
+                        <a class="   focus:bg-none w-[16rem] h-[4rem]  rounded-l-2xl rounder-reve flex focus:hidden text-white" href="./CaseStatus.html">
+                           
                             Cases
                         </a>
                     </button>
                 <span>
-                    <button>
+                    <button class="relative bottom-[29px]">
                         <a class="flex" href="/View/ShowOption.html">
-                            <svg class="mr-[1rem]" xmlns="http://www.w3.org/2000/svg" width="34" height="34"
+                            <svg class="mr-[1rem]" xmlns="http://www.w3.org/2000/svg" width="33" height="33"
                                 viewBox="0 0 34 34" fill="none">
                                 <path
                                     d="M15.2214 1.39697H12.0611C4.1603 1.39697 1 4.55728 1 12.458V21.9389C1 29.8397 4.1603 33 12.0611 33H21.542C29.4427 33 32.603 29.8397 32.603 21.9389V18.7786"
@@ -87,9 +90,9 @@
                             Register</a>
                     </button></span>
                 <span>
-                    <button>
+                    <button class="relative bottom-[31px]">
                         <a class="flex" href="Sign_In.html">
-                            <svg class="mt-[0.1rem] mr-[1rem]" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            <svg class="mt-[0.1rem] mr-[1rem]" xmlns="http://www.w3.org/2000/svg" width="33" height="33"
                                 viewBox="0 0 32 32" fill="none">
                                 <path
                                     d="M21.3184 32H21.1203C14.3547 32 11.0938 29.2736 10.53 23.1665C10.4691 22.5278 10.9262 21.9513 11.5662 21.889C12.191 21.8267 12.7548 22.3096 12.8157 22.9484C13.2576 27.8403 15.5128 29.6631 21.1355 29.6631H21.3336C27.5354 29.6631 29.7296 27.4197 29.7296 21.0789V10.9211C29.7296 4.58033 27.5354 2.3369 21.3336 2.3369H21.1355C15.4823 2.3369 13.2271 4.19084 12.8157 9.17623C12.7395 9.81499 12.2214 10.2979 11.5662 10.2356C10.9262 10.1889 10.4691 9.61245 10.5148 8.9737C11.0329 2.77312 14.309 0 21.1203 0H21.3184C28.8001 0 32 3.27166 32 10.9211V21.0789C32 28.7283 28.8001 32 21.3184 32Z"
@@ -194,11 +197,11 @@
                                 <input class="border-2 border-black w-60 justify-normal ml-3  " type="text">
                             </div>
 
-                            <div class="maindata  w-[80rem] h-[40rem]  ">
+                            <div class="maindata   h-[40rem] max-h-[25rem] overflow-scroll ">
 
                                 <table class="w-[80rem]   style=" height: 80rem;
                                 overflow: scroll;>
-                                    <thead class=" h-12 text-xl ">
+                                    <thead class=" h-12 text-xl sticky top-0 ">
                                         <th class="bg-[#825602] text-white flex-col w-[17rem]">Particulars</th>
                                         <th class="bg-white flex-col w-[17rem]">Civil</th>
                                         <th class="bg-[#825602] text-white flex-col w-[17rem]">Crimenal</th>
